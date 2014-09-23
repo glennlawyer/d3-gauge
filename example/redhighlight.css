@@ -1,0 +1,74 @@
+.d3-timer.redhighlight .outer-circle {
+  fill         :  #333;
+  stroke       :  #000;
+  stroke-width :  2px;
+}
+
+.d3-timer.redhighlight .middle-circle {
+  fill         :  #111;
+  stroke       :  #660000;
+  stroke-width :  4px;
+}
+
+.d3-timer.redhighlight .inner-circle {
+  fill         :  #111;
+  stroke       :  #777;
+  stroke-width :  1px;
+}
+
+.d3-timer.redhighlight .label {
+  fill      :  #888;
+  font-size :  24px;
+}
+
+.d3-timer.redhighlight .major-tick {
+  stroke       :  #888;
+  stroke-width :  2px;
+}
+
+.d3-timer.redhighlight .minor-tick {
+  stroke       :  #777;
+  stroke-width :  1px;
+}
+
+.d3-timer.redhighlight .major-tick-label {
+  fill         :  #ddd;
+  stroke-width :  2px;
+  font-size    :  15px;
+}
+
+.d3-timer.redhighlight .needle {
+  fill         :  #EE0000;
+  stroke       :  #EE0000;
+  fill-opacity :  0.7;
+}
+
+
+.d3-timer.redhighlight .needle.freeze {
+  fill         :  #880000;
+  stroke       :  #EE0000;
+  fill-opacity :  0.9;
+}
+
+.d3-timer.redhighlight .needle-container {
+  fill         :  #444;
+  stroke       :  #666;
+  fill-opacity :  1;
+}
+
+.d3-timer.redhighlight .current-value {
+  fill         :  #EE0000;
+  stroke-width :  0px;
+}
+
+.d3-timer.redhighlight .green-zone {
+  fill :  #ddd;
+}
+
+.d3-timer.redhighlight .yellow-zone {
+  fill :  #888
+}
+
+.d3-timer.redhighlight .red-zone {
+  fill :  #666
+}
